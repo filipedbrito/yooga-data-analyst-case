@@ -25,11 +25,7 @@ O objetivo do case é demonstrar competências técnicas e analíticas a partir 
 │   └── insights.md
 │
 ├── sql/
-│   ├── q1_revenue_evolution.sql
-│   ├── q2_customer_classification.sql
-│   ├── q3_top_customers_by_franchise.sql
-│   ├── q4_reviews_vs_revenue.sql
-│   └── q5_weekly_ticket_trends.sql
+│   ├── q1_evolucao_de_receita
 │
 └── README.md
     

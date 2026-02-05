@@ -6,7 +6,7 @@ O objetivo do case é demonstrar competências técnicas e analíticas a partir 
 
 ---
 
-## Ambiente Utilizado
+## Ambiente
 
 - **Databricks Free Edition**
 - **Databricks SQL**
@@ -17,7 +17,7 @@ O objetivo do case é demonstrar competências técnicas e analíticas a partir 
 
 ---
 
-## Estrutura do Repositório
+## Estrutura do repositório
 
 ```text
 ├── dashboard/

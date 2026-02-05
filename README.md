@@ -25,7 +25,9 @@ O objetivo do case é demonstrar competências técnicas e analíticas a partir 
 │   └── insights.md
 │
 ├── sql/
-│   ├── q1_evolucao_de_receita
+│   ├── notas_analiticas                        -- observaçõs e reflexões analíticas levantadas durante a resolução das questões
+│   ├── q1_evolucao_de_receita                  -- resolução da questão 1
+│   ├── q2_recorrência_por_cliente              -- resolução da questão 2
 │
 └── README.md
     

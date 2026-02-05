@@ -57,14 +57,16 @@ order by
     1,2
 
 
--- obsevações:
+-- Obsevações:
 
--- 1. A franquia 3000046 tem um patamar de receita acumulada significativamente superior às demais
---    Hipóteses: maior maturidade, volume de clientes ou ticket médio
+-- - Identificada necessidade de criação de calendário por franquia para evitar distorções no cálculo da receita bruta acumulada em dias sem vendas.
 
--- 2. A franquia 3000047 inicia o período com comportamento próximo ao grupo médio mas apresenta aceleração a partir do dia 6, sugerindo um evento pontual
---    Hipóteses: impacto de campanha, ajuste operacional ou sazonalidade
+-- - A franquia 3000046 tem um patamar de receita acumulada significativamente superior às demais,
+-- Hipóteses: maior maturidade, volume de clientes ou ticket médio.
 
--- 3. Franquias com crescimento linear e consistente caracterizam um perfil de vendas previsível e estável ao longo do período observado
+-- -- A franquia 3000047 inicia o período com comportamento próximo ao grupo médio mas apresenta aceleração a partir do dia 6, sugerindo um evento pontual.
+-- Hipóteses: impacto de campanha, ajuste operacional ou sazonalidade.
 
--- 4. O período de observação é limitado e não considera fatores como data de abertura da franquia ou sazonalidades de médio e longo prazo
+-- - Franquias com crescimento linear e consistente caracterizam um perfil de vendas previsível e estável ao longo do período observado.
+
+-- - O período de observação é limitado e não considera fatores como data de abertura da franquia ou sazonalidades de médio e longo prazo.

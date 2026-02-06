@@ -46,12 +46,22 @@ Este documento reúne observações e reflexões analíticas levantadas durante 
 
 ## Q4 – Reviews e desempenho financeiro
 
-- A análise relaciona volume de reviews com métricas financeiras por franquia,  porém não permite inferir causalidade entre engajamento e desempenho financeiro.
+- A análise relaciona volume de reviews com métricas financeiras por franquia, porém não permite inferir causalidade entre engajamento e desempenho financeiro.
   
-- Reviews e vendas não são eventos necessariamente simultâneos. Um review pode estar associado a uma experiência anterior ou ocorrer fora de uma janela de vendas analisada (ex: 7 dias)
+- Reviews e vendas não são eventos necessariamente simultâneos. Um review pode estar associado a uma experiência anterior ou ocorrer fora da janela de vendas analisada.
   
 - Franquias com maior volume de vendas tendem naturalmente a concentrar mais reviews, o que pode gerar viés de escala na interpretação dos dados.
   
 - Embora o join restrinja a análise a franquias com ao menos um review, em cenários reais nem todo review está necessariamente associado a uma compra recente.
   
-- Para análises mais conclusivas, seria necessário incorporar recorte temporal e associação entre review e transação, quando/se disponível.
+- Para análises mais conclusivas, seria necessário incorporar recorte temporal e associação entre review e transação, quando disponível.
+
+---
+
+## Q5 – Evolução do ticket médio e média móvel
+
+- Ao agregar os dados por semana, a semana corrente pode estar incompleta, tornando a comparação week over week assimétrica (ex.: poucos dias da semana atual versus semana anterior completa).
+  
+- Em um cenário real, uma alternativa seria trabalhar com médias móveis diárias (ex.: últimos 7, 28 ou 35 dias), reduzindo efeitos de sazonalidade de fim de semana e início/final de mês.
+  
+- A média móvel é um indicador mais “suave”, porém tende a reagir com atraso quando ocorrem mudanças mais bruscas no ticket médio.

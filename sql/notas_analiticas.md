@@ -44,8 +44,14 @@ Este documento reúne observações e reflexões analíticas levantadas durante 
 
 ---
 
-## Observações Gerais
+## Q4 – Reviews e desempenho financeiro
 
-- O período analisado é curto e não permite inferências mais robustas sobre sazonalidade.
+- A análise relaciona volume de reviews com métricas financeiras por franquia,  porém não permite inferir causalidade entre engajamento e desempenho financeiro.
   
-- As métricas devem ser interpretadas considerando o estágio de maturidade de cada franquia.
+- Reviews e vendas não são eventos necessariamente simultâneos. Um review pode estar associado a uma experiência anterior ou ocorrer fora de uma janela de vendas analisada (ex: 7 dias)
+  
+- Franquias com maior volume de vendas tendem naturalmente a concentrar mais reviews, o que pode gerar viés de escala na interpretação dos dados.
+  
+- Embora o join restrinja a análise a franquias com ao menos um review, em cenários reais nem todo review está necessariamente associado a uma compra recente.
+  
+- Para análises mais conclusivas, seria necessário incorporar recorte temporal e associação entre review e transação, quando/se disponível.

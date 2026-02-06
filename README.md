@@ -39,5 +39,6 @@ Para executar as queries:
 │   ├── q2_recorrencia_por_cliente.sql
 │   ├── q3_ranking_clientes.sql
 │   ├── q4_reviews_vs_receita.sql
+│   ├── q5_evolucao_ticket_medio_semanal.sql
 │
 └── README.md

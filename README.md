@@ -15,7 +15,7 @@ O objetivo do case é demonstrar competências técnicas e analíticas a partir 
 > As queries foram desenvolvidas para execução direta no ambiente do Databricks, utilizando as tabelas públicas do dataset Bakehouse.  
 > Não há dependência de execução local.
 
-Para executar as queries:
+Para execução das queries:
 
 1. Criar uma conta no **Databricks Free Edition**  
 2. Acessar o **Databricks SQL Editor**
@@ -26,12 +26,24 @@ Para executar as queries:
 
 ---
 
+## Organização do material
+
+- **Resumo das questões (`resumo_do_case.md`)**  
+  Compila os principais achados e leituras durante a resolução das questões, focando na interpretação dos dados e implicações práticas.
+
+- **Notas analíticas (`sql/notas_analiticas.md`)**  
+  Observações, hipóteses e limitações levantadas durante a resolução das questões.
+
+- **Execução técnica (`sql/`)**  
+  Queries SQL desenvolvidas para as questões propostas.
+
+---
+
 ## Estrutura do repositório
 
 ```text
+
 ├── dashboard/
-│   ├── screenshots/
-│   └── insights.md
 │
 ├── sql/
 │   ├── notas_analiticas.md
@@ -39,6 +51,8 @@ Para executar as queries:
 │   ├── q2_recorrencia_por_cliente.sql
 │   ├── q3_ranking_clientes.sql
 │   ├── q4_reviews_vs_receita.sql
-│   ├── q5_evolucao_ticket_medio_semanal.sql
+│   └── q5_evolucao_ticket_medio_semanal.sql
 │
-└── README.md
+├── README.md
+│
+└── resumo_questoes.md

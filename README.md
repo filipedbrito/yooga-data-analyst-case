@@ -77,4 +77,3 @@ O documento apresenta uma leitura executiva e objetiva dos dados, destacando:
 │   └── q5_evolucao_ticket_medio_semanal.sql
 │
 ├── README.md
-└── resumo_questoes.md

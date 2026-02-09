@@ -1,4 +1,4 @@
-# Resumo do Case
+# Resumo das questões q1 a q5
 
 Os dados mostram comportamentos diferentes entre as franquias. Algumas operam em patamares de receita mais altos, enquanto outras seguem um crescimento mais linear e previsível, o que facilita planejamento e controle. Há também casos de aceleração pontual, que podem estar ligados a fatores como campanha ou algum ajuste operacional.
 

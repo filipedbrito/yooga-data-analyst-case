@@ -2,7 +2,7 @@
 
 Este repositório contém a resolução do Case Técnico para a vaga de Analista de Dados na Yooga.
 
-O objetivo do case é demonstrar a capacidade de estruturar análises analíticas e extrair insights relevantes a partir de dados operacionais de uma rede de franquias do setor alimentício, apoiando a tomada de decisão estratégica.
+O objetivo do case é demonstrar a capacidade de estruturar análises e extrair insights relevantes a partir de dados operacionais de uma rede de franquias do setor alimentício, apoiando a tomada de decisão estratégica.
 
 O foco da entrega não está apenas nos números, mas na interpretação dos dados, identificação de padrões e direcionamento de ações de negócio.
 
@@ -14,7 +14,7 @@ O foco da entrega não está apenas nos números, mas na interpretação dos dad
 - **Databricks SQL**
 - Dataset público: `samples.bakehouse`
 
-> Todas as análises foram desenvolvidas diretamente no ambiente do Databricks SQL, utilizando exclusivamente as tabelas públicas do dataset Bakehouse.  
+> Todas as análises foram desenvolvidas diretamente no ambiente do Databricks SQL, utilizando exclusivamente as tabelas públicas do dataset Bakehouse.
 > Não há dependência de execução local.
 
 ### Execução das queries
@@ -28,15 +28,15 @@ O foco da entrega não está apenas nos números, mas na interpretação dos dad
 
 ---
 
-## Dashboard analítico
+## Dashboard analítico 
 
-O dashboard foi construído com foco executivo e permite:
+O dashboard ([link](https://dbc-905e5752-09c9.cloud.databricks.com/dashboardsv3/01f1022ebb671b5eaa6a1c610a731bad/published?o=7474647676028865)) - também no ambiente do Databricks - foi construído com foco executivo e permite:
 
 - acompanhamento do desempenho semanal consolidado;
 - comparação entre semanas (WoW);
 - análise da evolução de receita, clientes ativos, frequência e valor médio;
 - leitura da distribuição de receita por país e porte da franquia;
-- identificação de franquias com sinais de atenção ou oportunidade.
+- identificação de franquias com sinais de atenção ou oportunidade da perspectiva de monetização.
 
 Prints das principais visões estão disponíveis em: dashboard/screenshots/
 

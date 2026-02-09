@@ -76,4 +76,4 @@ O documento apresenta uma leitura executiva e objetiva dos dados, destacando:
 │   ├── q4_reviews_vs_receita.sql
 │   └── q5_evolucao_ticket_medio_semanal.sql
 │
-├── README.md
+└── README.md
